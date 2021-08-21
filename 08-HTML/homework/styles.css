@@ -1,3 +1,13 @@
+body{
+    background-image: url(https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-around;
+    height: 1000px;
+}
+
 h1{
     color: #4169e1;
 }
@@ -9,7 +19,7 @@ img{
 .thirdDiv{
     height: 600px;
     width: 500px;
-    background: #E3907B;
+    background: #454A4D;
     padding: 50px;
     border: 3px solid #4169E1;
 }
@@ -17,4 +27,15 @@ img{
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+    background: #454A4D;
+    border: 3px solid #4169E1;
+    color: white;
+}
+
+a{
+    color: yellow;
+
 }
